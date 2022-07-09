@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "outDir": "build",
+      "baseUrl": ".",
+      "target": "esnext",
+      "lib": ["es6", "es2015", "dom"],
+      "strict": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "paths": {
+        "@modules/import": [ "./src/import.ts" ]
+      }
+    },
+    "exclude": [
+      "node_modules"
+    ],
+    "include": [
+      "./src",
+    ],
+  }
+  
